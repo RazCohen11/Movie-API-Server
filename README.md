@@ -1,3 +1,11 @@
+## Environment Variables
+To run the project, create a `.env` file in the project root with:
+
+```env
+TMDB_API_KEY=YOUR_TMDB_API_KEY
+PORT=3000
+```
+
 ## High-level Flow
 1. Express server starts (`src/server.js`) and loads env vars from `.env`.
 2. Incoming requests go through routes (`src/routes/...`).
